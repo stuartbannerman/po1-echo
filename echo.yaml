@@ -48,7 +48,6 @@ metadata:
     alb.ingress.kubernetes.io/ssl-redirect: '443'
     alb.ingress.kubernetes.io/group.name: po1
     alb.ingress.kubernetes.io/group.order: '2'
-    alb.ingress.kubernetes.io/tags: Environment=dev,Team=test
 spec:
   ingressClassName: alb
   rules:
